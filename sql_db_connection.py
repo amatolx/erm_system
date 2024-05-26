@@ -1,3 +1,4 @@
 class DatabaseConnenction:
-    def __init__(self):
-        pass
+    def __init__(self, ip, port):
+        self.ip = ip
+        self.port = port
